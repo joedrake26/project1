@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
     background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 .navlink > a {
     color: white;
