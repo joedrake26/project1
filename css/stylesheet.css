@@ -1,15 +1,10 @@
-.navlinks {
+#navlinks {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: black;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 
-.navlink > a {
+#navlink > a {
     color: white;
     padding: 10px;
     display: inline-block;
@@ -17,6 +12,14 @@
     text-decoration: none;
 }
 
-.navlink > a:hover {
+#navlink > a:hover {
     background-color: gray;
+}
+
+#navlink > li {
+    float: left;
+}
+
+.nav-background {
+    background-color: black;
 }
