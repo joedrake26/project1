@@ -1,0 +1,13 @@
+.navlinks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.navlink > a {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    font-size: 1.5em;
+    text-decoration: none;
+}
