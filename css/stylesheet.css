@@ -1,4 +1,4 @@
-#navlinks {
+.navlinks {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -21,11 +21,7 @@
     background-color: gray;
 }
 
-#navlink > li {
-    float: left;
-    display: list-item;
-}
-
-.nav-background {
-    background-color: black;
+.navlinks > li:last-of-type {
+    color: white;
+    float: right;
 }
