@@ -2,7 +2,7 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: inline-block;
+    display: ;
 }
 
 #navlink > a {
@@ -19,6 +19,7 @@
 
 #navlink > li {
     float: left;
+    display: list-item;
 }
 
 .nav-background {
