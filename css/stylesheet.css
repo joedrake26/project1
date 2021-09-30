@@ -23,5 +23,5 @@
 
 .navlinks > li:last-of-type {
     color: white;
-    float: right;
+    justify-content: flex-end;
 }
