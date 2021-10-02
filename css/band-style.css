@@ -26,6 +26,7 @@ main {
 }
 
 img {
+    border-radius: 10px;
     width: 700px;
     height: 500px;
     margin: 5px;
@@ -33,9 +34,32 @@ img {
 }
 
 .center {
-    text-align: center;
+    
     
     width: 50%;
-    border: 3px solid green;
+    border-left: 3px double black;
     padding: 10px;
   }
+
+  #member-info {
+    font-size: 20pt;
+    margin-left: 5%;
+}
+
+  h1 {
+    text-align: center;
+    font-style: sans-serif;
+}
+
+p {
+    font-style: serif;
+}
+
+.band-heading {
+    margin-top: 3%;
+    width: 50%;
+    border-style: double;
+    box-shadow: inset 0 0 7px black;
+    background-color: gray;
+    border-radius: 10px;
+}

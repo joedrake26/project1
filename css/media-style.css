@@ -26,6 +26,7 @@ main {
 }
 
 img {
+    border-radius: 10px;
     width: 700px;
     height: 500px;
     margin: 5px;
@@ -36,7 +37,7 @@ img {
     text-align: center;
     
     width: 50%;
-    border: 3px solid green;
+    border-left: 3px double black;
     padding: 10px;
   }
 
