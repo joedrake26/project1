@@ -64,8 +64,6 @@ body {
   }
 
 main {
-  display: flex;
-  flex-direction: column;
   background-color: rgb(255, 253, 208);
   align-items: center;
 }
