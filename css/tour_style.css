@@ -1,0 +1,20 @@
+
+.tourcontainer {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 65%;
+    border-style: double;
+    box-shadow: inset 0 0 7px black;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30pt;
+}
+
+#tourlist {
+    font-size: 20pt;
+    margin-left: 17%;
+}
