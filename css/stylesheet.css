@@ -7,12 +7,13 @@ body {
     color: white;
     font-size: 1.5em;
     font-family: sans-serif;
+    border-bottom: 1px solid lightgray;
   }
   
   .menus {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
   }
   
   .menus, .menu-items {
@@ -29,6 +30,11 @@ body {
     border-right: 1px solid lightgray;
   }
   
+  .menu-heading:first-child {
+    border-left: 1px solid lightgray;
+    
+  }
+
   .menu-item {
     border-top: 1px solid lightgray;
   }
@@ -64,6 +70,6 @@ body {
   }
 
 main {
-  background-color: rgb(255, 253, 208);
+  background-color: black;
   align-items: center;
 }
