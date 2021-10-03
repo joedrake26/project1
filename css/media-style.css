@@ -49,3 +49,8 @@ p {
     font-size: 15pt;
     font-style: serif;
 }
+
+.description {
+    font-size: 20pt;
+    margin-left: 5%;
+}
