@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 
 <head>
+    <meta charset="UTF-8">
     <title>Discretion Advised</title>
     <link rel="icon" type="image/jpg" href="images/da_favicon.JPG"/>
     <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" href="css/tour-style.css">
+    <link rel="stylesheet" href="css/contact-style.css">
 </head>
 <body>
     <header>
@@ -23,21 +24,27 @@
               <div class="menu-heading menu-item"><a href="songs.html">Song List</a></div>
             </li>
             <li class="menu">
-              <div class="menu-heading menu-item on-page"><a>Tour Dates</a></div>
+              <div class="menu-heading menu-item"><a>Tour Dates</a></div>
               <ul class="menu-items">
                 <li class="menu-item"><a href="tour-upcoming.html">Up Coming</a></li>
                 <li class="menu-item"><a href="tour-past.html">Past Shows</a></li>
               </ul>
             </li>
-            <li class="menu">
+            <li class="menu on-page">
                 <div class="menu-heading menu-item"><a href="contact.html">Contact Us</a></div>
             </li>
           </ul>
         </nav>
     </header>
     <main>
-        <div class="tour-container">
-            <h1>Check Back Soon!</h1>
+        <div class="contact-container">
+            <h1>Contact Form</h1>
+            <div id="list-items">
+                <p>Name: <input type="text"></p>
+                <p>Email: <input type="email"></p>
+                <p>Phone Number: <input type="tel"></p>
+                <button>Submit</button>
+            </div>
         </div>
     </main>
 </body>
