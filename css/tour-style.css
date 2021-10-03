@@ -21,7 +21,7 @@ h1 {
     border-radius: 10px;
 }
 
-#list-items {
+.list-items {
     font-size: 20pt;
     margin-left: 17%;
 }
