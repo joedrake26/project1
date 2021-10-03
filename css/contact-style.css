@@ -7,6 +7,10 @@ main {
 h1 {
     text-align: center;
     font-size: 30pt;
+    background-size: 100%;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .contact-container {
@@ -17,6 +21,7 @@ h1 {
     box-shadow: inset 0 0 7px black;
     background-color: gray;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 #list-items {

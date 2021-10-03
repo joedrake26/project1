@@ -17,6 +17,9 @@ main {
 h1 {
     text-align: center;
     font-size: 30pt;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #songlist {

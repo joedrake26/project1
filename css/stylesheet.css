@@ -76,3 +76,7 @@ main {
   min-height: 100vh;
     min-width: 100wh;
 }
+
+.header {
+  background-color: rgb(50, 50, 50);
+}
